@@ -1,0 +1,10 @@
+# Ignore everything...
+*/*
+*.sln
+*.htm
+*.csproj
+
+# ...except
+!Assets/*
+!ProjectSettings/*
+!.gitignore
