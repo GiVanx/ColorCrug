@@ -70,8 +70,6 @@ public class PlayerControl : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log(spritePicker.NextSprite());
         GetComponent<SpriteRenderer>().sprite = spritePicker.NextSprite();
-        Debug.Log("Sprite name: " + spritePicker.CurrentSpriteName());
     }
 }
